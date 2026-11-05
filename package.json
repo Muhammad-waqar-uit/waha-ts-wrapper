@@ -1,4 +1,29 @@
-{"name": "@mukhtasar/waha", "version": "0.1.0", "description": "TypeScript wrapper for the WAHA WhatsApp REST API — sessions, messages, chats, groups, channels, media, and more", "keywords": ["whatsapp", "waha", "bot", "api", "wrapper", "typescript", "chat", "messaging", "baileys"], "license": "MIT", "author": "", "repository": {"type": "git", "url": "https://github.com/<YOUR_GH_USER>/waha-ts-wrapper.git"}, "homepage": "https://github.com/<YOUR_GH_USER>/waha-ts-wrapper#readme", "bugs": {"url": "https://github.com/<YOUR_GH_USER>/waha-ts-wrapper/issues"},
+{
+  "name": "waha-ts",
+  "version": "0.1.0",
+  "description": "TypeScript wrapper for the WAHA WhatsApp REST API — sessions, messages, chats, groups, channels, media, and more",
+  "keywords": [
+    "whatsapp",
+    "waha",
+    "bot",
+    "api",
+    "wrapper",
+    "typescript",
+    "chat",
+    "messaging",
+    "baileys",
+    "whatsapp-web"
+  ],
+  "license": "MIT",
+  "author": "Muhammad Waqar <muhammadwaqar.business@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-waqar-uit/waha-ts-wrapper.git"
+  },
+  "homepage": "https://github.com/Muhammad-waqar-uit/waha-ts-wrapper#readme",
+  "bugs": {
+    "url": "https://github.com/Muhammad-waqar-uit/waha-ts-wrapper/issues"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
