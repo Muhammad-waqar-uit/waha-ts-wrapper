@@ -1,4 +1,4 @@
-# @mukhtasar/waha
+# waha-ts
 
 TypeScript wrapper for [WAHA](https://github.com/devlikeapro/waha) — the WhatsApp REST API server.
 
@@ -7,13 +7,13 @@ Send messages, manage sessions, read chats, and build bots — fully typed, zero
 ## Install
 
 ```bash
-npm i @mukhtasar/waha
+npm i waha-ts
 ```
 
 ## Quick Start
 
 ```typescript
-import { createWAHA } from '@mukhtasar/waha';
+import { createWAHA } from 'waha-ts';
 
 const waha = createWAHA({
   baseUrl: 'http://localhost:3000',
@@ -44,7 +44,7 @@ const sessions = await waha.listSessions(true);
 ```typescript
 // app/api/whatsapp/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import { createWAHA } from '@mukhtasar/waha';
+import { createWAHA } from 'waha-ts';
 
 const waha = createWAHA({ baseUrl: 'http://localhost:3000', apiKey: process.env.WAHA_API_KEY! });
 
